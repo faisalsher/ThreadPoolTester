@@ -272,7 +272,7 @@ return this.model;
     requestTypePanel.setPreferredSize(new Dimension(674, 115));
     requestTypePanel.setLayout(gridLayout1);
     requestTypePanel.setBorder(BorderFactory.createTitledBorder("Server Thread Pool"));
-    requestFrequencyPanel.setPreferredSize(new Dimension(674, 98));
+    requestFrequencyPanel.setPreferredSize(new Dimension(674, 50));
     requestFrequencyPanel.setLayout(borderLayout3);
     requestFrequencyPanel.setBorder(BorderFactory.createTitledBorder("Request Frequency"));
     //ioRadioButton.setText("I/O Bound");
@@ -329,7 +329,7 @@ return this.model;
     titledBorder2 = new TitledBorder("");
     titledBorder3 = new TitledBorder("");
 
-    this.setSize(new Dimension(400, 500));
+    this.setSize(new Dimension(763, 500));
 
     this.setTitle("ThreadPoolTester");
     jPanel1.setBackground(new Color(169, 198, 236));
